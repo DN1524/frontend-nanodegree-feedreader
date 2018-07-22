@@ -27,8 +27,7 @@ The purpose of this project is to create a feedreeder using Jasmine for the Udac
 3. Run the Index.html with a web browser such as Google Chrome or Firefox to locally test the project for yourself.
 
 ## Contributors
-
-### Creators of the app itself:
+#### Creators of the app itself:
 - Prather-mcs
 - susansmith
 - kratam
@@ -38,7 +37,7 @@ The purpose of this project is to create a feedreeder using Jasmine for the Udac
 - skh
 - nicolasartman
 
-### Creator of the Feedreader tests:
+#### Creator of the Feedreader tests:
 - Daniel Martinez (DN1524)
 
 
