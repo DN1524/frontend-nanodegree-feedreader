@@ -4,7 +4,7 @@ Link to GitHub Page : https://dn1524.github.io/frontend-nanodegree-feedreader/
 
 The purpose of this project is to create a feedreeder using Jasmine for the Udacity Front-End NanoDegree with the given blog app. The goal of the project is to create tests to ensure that the app functions properly and for it to throw an error if something malfunctions.
 
-### The test checks the following:
+**The test checks the following:**
 - **RSS Feeds**
 - **Initial entries**
 - **New Feeds being selected**
