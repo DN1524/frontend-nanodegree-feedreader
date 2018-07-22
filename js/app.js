@@ -22,8 +22,6 @@ var allFeeds = [
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
     }
 ];
-// let menuOpen;
-//let menuToggle = function() {$('body').toggleClass('menu-hidden')}
 
 /* This function starts up our application. The Google Feed
  * Reader API is loaded asynchonously and will then call this
