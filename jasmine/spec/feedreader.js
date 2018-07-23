@@ -31,9 +31,9 @@ $(function() {
         });
 
         it('Opens and closes when clicked', function() {
-            menuIcon.trigger('click');
+            menuIcon.click();
             expect(body.hasClass('menu-hidden')).toBe(false);
-            menuIcon.trigger('click');
+            menuIcon.click();
             expect(body.hasClass('menu-hidden')).toBe(true);
         });
     });
@@ -44,11 +44,11 @@ $(function() {
             loadFeed(0, done);
         });
 
-        it('Feed has at least one entry element', function(done) {
+        it('Feed has at least one entry element', function() {
             const feed = $('.feed');
+            const entry = $('.entry');
             //makes sure that there is at least 1 entry
-            expect(feed.children().length).not.toBe(0);
-            done();
+            expect(feed.children(entry).length).not.toBe(0);
         });
             
     });
@@ -70,13 +70,12 @@ $(function() {
             });
         });
 
-        it('Feed changes when new feed is selected', function(done) {
+        it('Feed changes when new feed is selected', function() {
             // Grabs both the text from the 1st and 2nd feeds and
             // compares them to see if they are different. If they are
             // different, that means that the feed changed and the test
             // is successful!
             expect(feedText0).not.toBe(feedText1);
-            done();
         });
     });
 }());
