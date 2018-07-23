@@ -44,10 +44,10 @@ $(function() {
             loadFeed(0, done);
         });
 
-        it('Has at least one entry element', function(done) {
-            const entry = $('.entry');
+        it('Feed has at least one entry element', function(done) {
+            const feed = $('.feed');
             //makes sure that there is at least 1 entry
-            expect(entry.length).not.toBe(0);
+            expect(feed.children().length).not.toBe(0);
             done();
         });
             
