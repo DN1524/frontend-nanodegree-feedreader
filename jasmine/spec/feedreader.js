@@ -10,14 +10,14 @@ $(function() {
         it('Have URLs', function() {
             allFeeds.forEach(function(feeds) {
                 expect(feeds.url).toBeDefined();
-                expect(feeds.url).not.toBe(0);
+                expect(feeds.url.length).not.toBe(0);
             });
         });
 
         it('Have names', function() {
             allFeeds.forEach(function(feeds) {
                 expect(feeds.name).toBeDefined();
-                expect(feeds.name).not.toBe(0);
+                expect(feeds.name.length).not.toBe(0);
             });
         });
     });
@@ -45,10 +45,8 @@ $(function() {
         });
 
         it('Feed has at least one entry element', function() {
-            const feed = $('.feed');
-            const entry = $('.entry');
             //makes sure that there is at least 1 entry
-            expect(feed.children(entry).length).not.toBe(0);
+            expect($('.feed .entry-link').length).not.toBe(0)
         });
             
     });
