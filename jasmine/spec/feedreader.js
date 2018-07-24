@@ -46,7 +46,7 @@ $(function() {
 
         it('Feed has at least one entry element', function() {
             //makes sure that there is at least 1 entry
-            expect($('.feed .entry-link').length).not.toBe(0)
+            expect($('.feed .entry').length).not.toBe(0)
         });
             
     });
